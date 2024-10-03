@@ -11,7 +11,7 @@ function App() {
 
   async function procurarCidade() {
     const city = inputRef.current.value;
-    const apikey = "abc60009f2745afda114c2d341591172";
+    const apikey = "YOURAPIKEY";
 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&lang=pt_br&units=metric`;
 
